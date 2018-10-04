@@ -1,0 +1,5 @@
+Je vous ai fait la méthode decrypt, qui consiste à :
+- appeler l'encrypt avec la combination inverse,
+- ajouter un modulo 26 dans le choix de l'index à retourner, afin d'avoir toujours un index entre 0 et 25.
+
+J'ai également ajouté un tableau ponctuation qui permet de filtrer plus d'éléments de ponctuation que le simple espace " ".
